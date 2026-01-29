@@ -9,14 +9,14 @@ export default function Hero() {
         <div className="animate-slide-in-left">
           <p
             className="text-sm uppercase tracking-widest text-indigo-400 animate-fade-in"
-            style={{ animationDelay: "0.2s", animationIterationCount: 1 }}
+            style={{ animationDelay: "0.2s" }}
           >
             Frontend Developer
           </p>
 
           <h1
             className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white animate-slide-in-left"
-            style={{ animationDelay: "0.4s", animationIterationCount: 1 }}
+            style={{ animationDelay: "0.4s" }}
           >
             Crafting clean <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-600">
@@ -26,7 +26,7 @@ export default function Hero() {
 
           <p
             className="mt-6 text-gray-600 dark:text-gray-400 max-w-xl animate-slide-in-up"
-            style={{ animationDelay: "0.6s", animationIterationCount: 1 }}
+            style={{ animationDelay: "0.6s" }}
           >
             I’m Biswajit, a frontend developer focused on building fast,
             responsive, and visually polished user interfaces using React, Vite,
@@ -35,7 +35,7 @@ export default function Hero() {
 
           <div
             className="mt-10 flex gap-4 animate-slide-in-up"
-            style={{ animationDelay: "0.8s", animationIterationCount: 1 }}
+            style={{ animationDelay: "0.8s" }}
           >
             <a
               href="#projects"
@@ -55,7 +55,7 @@ export default function Hero() {
 
         <div
           className="relative hidden md:flex justify-center animate-slide-in-right"
-          style={{ animationDelay: "0.4s", animationIterationCount: 1 }}
+          style={{ animationDelay: "0.4s" }}
         >
           <div className="absolute w-[340px] h-[340px] bg-indigo-500/30 blur-[120px] rounded-full animate-pulse" />
 
