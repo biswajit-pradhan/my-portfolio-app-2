@@ -4,16 +4,22 @@ import {
   FooterLink,
   FooterLinkGroup,
 } from "flowbite-react";
+import { NavLink } from "react-router-dom";
 
 const FooterComponent = () => {
   return (
     <Footer container className="dark:bg-gray-900 dark:border-gray-700">
-      <FooterCopyright href="#" by="Flowbite™" year={2022} />
+      <FooterCopyright by="Biswajit Pradhan™" year={new Date().getFullYear()} />
       <FooterLinkGroup>
-        <FooterLink href="#">About</FooterLink>
-        <FooterLink href="#">Privacy Policy</FooterLink>
-        <FooterLink href="#">Licensing</FooterLink>
-        <FooterLink href="#">Contact</FooterLink>
+        <FooterLink as={NavLink} to="/about">
+          About
+        </FooterLink>
+        <FooterLink as={NavLink} to="/privacy-policy">
+          Privacy Policy
+        </FooterLink>
+        <FooterLink as={NavLink} to="/contact">
+          Contact
+        </FooterLink>
       </FooterLinkGroup>
     </Footer>
   );

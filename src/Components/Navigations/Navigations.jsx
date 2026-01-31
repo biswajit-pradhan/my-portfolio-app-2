@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
+import FooterComponent from "../Footer/FooterComponent";
 import Home from "../Home/Home";
 import NavbarComponent from "../Navbar/NavbarComponent";
+import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
 import About from "./../About/About";
 import Blogs from "./../Blogs/Blogs";
 import Contact from "./../Contact/Contact";
 import Projects from "./../Projects/Projects";
-import FooterComponent from "../Footer/FooterComponent";
 
 const Navigations = () => {
   return (
@@ -18,6 +19,7 @@ const Navigations = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </div>
       <FooterComponent />

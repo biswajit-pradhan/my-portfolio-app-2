@@ -50,16 +50,12 @@ const NavbarComponent = () => {
           Home
         </NavbarLink>
 
-        <NavbarLink as={NavLink} to="/about">
-          About
+        <NavbarLink as={NavLink} to="/blogs">
+          Blogs
         </NavbarLink>
 
         <NavbarLink as={NavLink} to="/projects">
           My Projects
-        </NavbarLink>
-
-        <NavbarLink as={NavLink} to="/blogs">
-          Blogs
         </NavbarLink>
 
         <NavbarLink as={NavLink} to="/contact">
