@@ -46,7 +46,7 @@ const NavbarComponent = () => {
       </div>
 
       <NavbarCollapse>
-        <NavbarLink as={NavLink} to="/">
+        <NavbarLink as={NavLink} to="/home">
           Home
         </NavbarLink>
 

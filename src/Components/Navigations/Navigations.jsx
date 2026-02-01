@@ -7,6 +7,7 @@ import About from "./../About/About";
 import Blogs from "./../Blogs/Blogs";
 import Contact from "./../Contact/Contact";
 import Projects from "./../Projects/Projects";
+import Landing from "../Landing/Landing";
 
 const Navigations = () => {
   return (
@@ -14,7 +15,8 @@ const Navigations = () => {
       <div className="nav-content flex-1 mb-8">
         <NavbarComponent />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blogs" element={<Blogs />} />
